@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FAVICON -->
+
+    <title>Elderly</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="80" width="170" src="img/logazo.png" alt="" />
+      </a>
+
+      <!--boton para menu hamburguesa, Menu Responsive Open-->
+      <button class="open-menu" arial-label="Abrir-menu">
+        <img height="50" width="50" src="img/menu.png" alt="" />
+      </button>
+      
+      <ul class="menu-horizontal">
+        <!--boton hamburguesa, Menu Responsive Close-->
+        <button class="close-menu" arial-label="Cerrar-menu">
+          <img height="50" width="50" src="img/close-icon.svg" alt="" />
+        </button>
+
+        
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#servicios">Servicios</a>
+          <ul class="menu-vertical">
+            <li><a href="">Monitoreo</a></li>
+            <li><a href="">Visitas</a></li>
+            <li><a href="">Plataforma</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#plataforma">Plataforma</a>
+          <ul class="menu-vertical">
+            <li><a href="">Ver historial</a></li>
+            <li><a href="">Configurar</a></li>
+            <li><a href="">Alertas</a></li>
+            <li><a href="">Solicitar ayuda</a></li>
+            <li><a href="">Ver planes de servicio</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#recursos">Recursos</a>
+          <ul class="menu-vertical">
+            <li><a href="">Personal calificado</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#nosotros">Nosotros</a>
+          <ul class="menu-vertical">
+            <li><a href="">Misión</a></li>
+            <li><a href="">Visión</a></li>
+            <li><a href="">Opiniones</a></li>
+            <li><a href="">Nuestros valores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#form">Contacto</a>
+          <ul class="menu-vertical">
+          </ul>
+        </li>
+          
+    </nav>
+    <header class="hero">
+      <div class="search-bar">
+        <input type="text" placeholder="Barra de Búsqueda" />
+        <span class="search-icon">🔍</span>
+      </div>
+      <div class="lema-container">
+        <h1 class="lema">
+          "El cuidado que merecen, la tranquilidad que necesitas."
+        </h1>
+      </div>
+      <div class="steps-container">
+        <h2>Tu cuidador ideal en tan solo 3 pasos</h2>
+        <div class="step">
+          <img src="img/contacta.png" alt="Contacta" class="icon" />
+          <h3>1. Contacta</h3>
+          <p>
+            Rellena el formulario de contacto o llámanos. Nuestros expertos en
+            cuidados se pondrán en contacto contigo para conocer vuestra
+            situación.
+          </p>
+        </div>
+        <div class="step">
+          <img src="img/conoce.png" alt="Conoce" class="icon" />
+          <h3>2. Conoce</h3>
+          <p>
+            En base a tus necesidades te proporcionaremos el perfil con más
+            experiencia y mejor encaje entre la persona mayor y el profesional
+            del cuidado.
+          </p>
+        </div>
+        <div class="step">
+          <img src="img/activa.png" alt="Activa" class="icon" />
+          <h3>3. Activa</h3>
+          <p>
+            Una vez seleccionado el cuidador/a (y si la familia lo solicita),
+            nos encargamos de preparar toda la documentación para empezar el
+            servicio cuanto antes.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Stefania-->
+
+    <section class="services-section">
+      <div class="header">
+        <fieldset id="servicios">
+
+        <h2>Servicios Elderly</h2>
+        <p>"El cuidado que merecen, la tranquilidad que necesitas."</p>
+        <button class="cta-button">Contacta ahora</button>
+      </div>
+      <div class="services-container">
+        <div class="service-card">
+          <h3>Monitoreo</h3>
+          <div class="service-content">
+            <img src="img/monitoreo.png" alt="Monitoreo" />
+            <ul>
+              <li>Cuidadores a domicilio</li>
+              <li>Cuidadores SAD por horas</li>
+              <li>Cuidadores internos a domicilio</li>
+              <li>Teleasistencia</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <h3>Visitas</h3>
+          <div class="service-content">
+            <img src="img/visitas.png" alt="Visitas" />
+            <ul>
+              <li>Visitas de emergencia</li>
+              <li>Visitas programadas</li>
+              <li>Visitas de seguimiento médico</li>
+              <li>Visitas de acompañamiento</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <h3>Plataforma</h3>
+          <div class="service-content">
+            <img src="img/plataforma.png" alt="Plataforma" />
+            <ul>
+              <li>Agenda y recordatorios personalizados</li>
+              <li>Monitoreo remoto</li>
+              <li>Conexión con profesionales de salud</li>
+              <li>Red de apoyo familiar</li>
+            </ul>
+          </div>
+        </div>
+      </fieldset>
+      </div>
+    
+    </section>
+    
+    <!-- Thiagucci -->
+    
+   
+    <section class="fondo">
+      <section class="Caracteristicas">
+        <fieldset id="plataforma">
+        </fieldset>
+        <h1>Características</h1>
+
+        <div class="container">
+          <div class="card">
+            <div class="card-info">
+              <div class="card-title">Historial</div>
+              <div class="card-description">
+                Revise las visitas programadas y controle las anomalías.
+              </div>
+            </div>
+            <div class="card-icon-container">
+              <img src="img/historial.png" alt="Icono Historial" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-info">
+              <div class="card-title">Solicitar ayuda</div>
+              <div class="card-description">
+                Solicite asistencia temprana ante accidentes.
+              </div>
+            </div>
+            <div class="card-icon-container">
+              <img src="img/solicitar_ayuda.png" alt="Icono Ayuda" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-info">
+              <div class="card-title">Configurar Alertas</div>
+              <div class="card-description">
+                Controle la cantidad y tipos de notificaciones que recibe.
+              </div>
+            </div>
+            <div class="card-icon-container">
+              <img src="img/configurar_alertas.png" alt="Icono Alertas" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-info">
+              <div class="card-title">Planes</div>
+              <div class="card-description">
+                Renueve plan de servicio a nuevo o pida el cese de actividades.
+              </div>
+            </div>
+            <div class="card-icon-container">
+              <img src="img/planes.png" alt="Icono Planes" />
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </section>
+
+    <!-- Angel di maria -->
+    
+    
+    <h1> !LO MEJOR DE NOSOTROS!</h1><br>
+    <section class="profiles" > 
+      <fieldset id="recursos">
+      </fieldset>
+      <div class="profile-card">
+        <img src="img/maria_lopez.png" alt="María López" />
+        <h2>María López</h2>
+        <p>Enfermera titulada<br />Especialista en cuidados geriátricos.</p>
+        <button>Ver detalle</button>
+      </div>
+      <div class="profile-card">
+        <img src="img/carolina_sanchez.png" alt="Carolina Sánchez" />
+        <h2>Carolina Sánchez</h2>
+        <p>
+          Asistente de cuidados.<br />Atención domiciliaria y teleasistencia.
+        </p>
+        <button>Ver detalle</button>
+      </div>
+      <div class="profile-card">
+        <img src="img/juan_vidal.png" alt="Juan Vidal" />
+        <h2>Juan Vidal</h2>
+        <p>Cuidador interno<br />Atención 24/7 y soporte emocional.</p>
+        <button>Ver detalle</button>
+      </div>
+      <div class="profile-card">
+        <img src="img/ana_rodriguez.png" alt="Ana Rodríguez" />
+        <h2>Ana Rodríguez</h2>
+        <p>
+          Terapeuta ocupacional<br />Rehabilitación y estimulación cognitiva.
+        </p>
+        <button>Ver detalle</button>
+      </div>
+      <div class="profile-card">
+        <img src="img/lucia_fernandez.png" alt="Lucía Fernández" />
+        <h2>Lucía Fernández</h2>
+        <p>
+          Médica general<br />Especialista en telemedicina y seguimiento
+          remoto.
+        </p>
+        <button>Ver detalle</button>
+      </div>
+      <div class="profile-card">
+        <img src="img/carlos_riquelme.png" alt="Carlos Riquelme" />
+        <h2>Carlos Riquelme</h2>
+        <p>
+          Médico geriatra<br />Experto en enfermedades crónicas en adultos
+          mayores.
+        </p>
+        <button>Ver detalle</button>
+      </div>
+      
+    </section>
+
+
+    <!-- ION --> 
+    
+    <section class="landing-section">
+      <fieldset id="nosotros">
+      <div class="overlay">
+        <div class="container">
+          <div class="section-block">
+            <h2>VISION</h2>
+            <p>
+              Ser la red de seguridad más confiable para adultos mayores que
+              viven solos, donde la atención humana y la tecnología se integran
+              de manera armoniosa para garantizar su bienestar físico, emocional
+              y social. Aspiramos a liderar el mercado del cuidado de las
+              personas mayores, brindando tranquilidad a las familias y
+              mejorando la calidad de vida de los adultos mayores a través de
+              una red solidaria y preventiva.
+            </p>
+          </div>
+          <div class="section-block">
+            <h2>MISION</h2>
+            <p>
+              Nuestra misión es ofrecer una solución integral que combine
+              atención presencial de calidad con tecnología de análisis de
+              datos, para garantizar la seguridad y el bienestar de los adultos
+              mayores que viven solos. Nos enfocamos en prevenir problemas de
+              salud mediante revisiones periódicas realizadas por personal
+              calificado, cuyos resultados son monitoreados en nuestra
+              plataforma digital.
+            </p>
+          </div>
+          <div class="section-block opinions">
+            <h2>OPINIONES</h2>
+            <div class="opinion">
+              <img src="img/laurita_bonita.png" alt="Laura Méndez" />
+              <p>
+                <strong>Laura Méndez</strong><br />"Gracias a Elderly, mi madre
+                tiene el apoyo que necesita sin que yo esté preocupada todo el
+                tiempo. ¡Totalmente recomendable!"
+              </p>
+            </div>
+            <div class="opinion">
+              <img src="img/valeria.png" alt="Valeria Torres" />
+              <p>
+                <strong>Valeria Torres</strong><br />"La plataforma es super
+                fácil de usar y los cuidadores son muy profesionales. Me siento
+                tranquila sabiendo que mi abuela está bien cuidada."
+              </p>
+            </div>
+            <div class="opinion">
+              <img src="img/sofia.png" alt="Sofía Ramírez" />
+              <p>
+                <strong>Sofía Ramírez</strong><br />"Los servicios de
+                teleasistencia son perfectos. Puedo monitorear a mi padre desde
+                cualquier lugar. ¡Elderly es la mejor opción!"
+              </p>
+            </div>
+          </div>
+          <div class="section-block values">
+            <h2>NUESTROS VALORES</h2>
+            <ul>
+              <li>
+                <strong>Empatía y Respeto:</strong> Tratamos a cada persona con
+                dignidad, respetando sus necesidades y particularidades.
+              </li>
+              <li>
+                <strong>Confianza y Transparencia:</strong> Ofrecemos servicios
+                con integridad, manteniendo siempre una comunicación clara y
+                directa con las familias.
+              </li>
+              <li>
+                <strong>Innovación al Servicio del Cuidado:</strong>
+                Incorporamos tecnologías modernas para mejorar la calidad de
+                vida de nuestros usuarios y facilitar la interacción con los
+                cuidadores.
+              </li>
+              <li>
+                <strong>Calidad:</strong> Garantizamos que nuestro equipo esté
+                capacitado y dispuesto a brindar un servicio al alto nivel,
+                adaptado a cada situación.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>© 2024, Elderly</p>
+      </footer>
+    </fieldset>
+    </section>
+    <!-- ION , CONTACTO -->
+    <section class = "Inscripcion-Section">
+      <div class = "Container-Section">
+          <form name = "frm" method="post" action="">
+            <fieldset id="form">
+              <legend>Formulario de Inscripcion</legend>
+              <ol>
+                  <li><label>Nombres:</label><input type="text" name="fname" size="80"/></li>
+                  <li><label>Apellidos:</label><input type="text" name="flastname" size="80"/></li>
+                  <li><label>Direccion:</label><input type="text" name="fadress" size="80"/></li>
+                  <li><label>Telefono:</label><input type="text" name="fphone" size="80"/></li>
+                  <li><label>Correo:</label><input type="text" name="femail" size="80"/></li>
+                  <li><label>Sexo:</label><input type="radio" name="fsex" size="80" value="H"/>Hombre
+                  <input type="radio" name="fsex" size="80" value="H"/>Mujer
+                  <input type="radio" name="fsex" size="80" value="H"/>Otros</li>
+                  <li><label>Quien eres? elige una opcion: </label>
+                    <select> 
+                      <option></option>
+                      <option>Familiar</option>
+                      <option>Postulante a cuidador</option>
+                      <option>Otros</option>
+                    </select>
+                  </li>
+               </ol> 
+               <p><input class="btn-frm-insc" type="submit" value="Enviar"/></p>
+
+            </fieldset>
+          </form>
+      </div>
+  </section>
+
+
+  <!-- PIE DE PAGINA -->
+
+  <footer class="footer-section">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Nosotros</h3>
+            <ul>
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Como trabajamos</a></li>
+                <li><a href="#form">Trabaja con nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Nuestras Redes</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Dispositivos</h3>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Ios</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Políticas</a></li>
+                <li><a href="#">Reglamentos</a></li>
+                <li><a href="#">Nuestras Normas</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="footer-line">
+    <div class="footer-bottom">
+        <p>©2024 Elderly. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+  </body>
+  <script src="main.js"></script>
+  </body>
+</html>
